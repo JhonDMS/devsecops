@@ -2,6 +2,18 @@
 
 Este archivo tiene los apuntes de la investigación en el area DevSecOps
 
+
+![Inyectando Sec en Devops](imagenes/InjectingSecinDevops.jpg)
+
+
+
+
+### Devops VS DevSecOps Pipeline
+
+![Devops VS DevSecOps Pipeline](imagenes/DevopsVsDevSecOpsPipe.jpg)
+
+
+
 # Herramientas
 
 ## Threat Model Analysis
@@ -46,6 +58,33 @@ Este archivo tiene los apuntes de la investigación en el area DevSecOps
 * [Archery](https://www.archerysec.com/)
 * [Jack Hammer](https://github.com/olacabs/jackhammer)
 * [Defect Dojo](https://www.defectdojo.org/)
+
+## Dynamic analysis Security Testing (DAST)
+
+* [Zap Proxy](https://www.zaproxy.org/)
+* [Arachny](https://www.arachni-scanner.com/)
+* [W3AF](https://w3af.org/)
+* [Wapiti](https://wapiti.sourceforge.io/)
+
+## Security In Infrastructure as Code
+
+* [OpenVAS](https://openvas.org/)
+* [Anchore - Container Devsec](https://anchore.com/)
+* [Clair](https://github.com/quay/clair)
+* [Dockscan](https://github.com/kost/dockscan)
+* [OpenScap](https://www.open-scap.org/)
+
+## Compliance as Code
+
+* [Kitchen CI](https://kitchen.ci/)
+* [Chef Inspec](https://docs.chef.io/inspec)
+* [DevSec Hardenng Framework](https://dev-sec.io/)
+* [Docker Bench for Security](https://github.com/docker/docker-bench-security)
+
+## WAF Web Application Framework
+* [ModSecurity](https://www.modsecurity.org/)
+* [Naxsi Nginx WAF](https://github.com/nbs-system/naxsi)
+
 
 * Git
 * JUnit
