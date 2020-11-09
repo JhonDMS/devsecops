@@ -2,17 +2,57 @@
 
 Este archivo tiene los apuntes de la investigación en el area DevSecOps
 
-## Herramientas
+# Herramientas
 
+## Threat Model Analysis
+* [Threat Playbook Framework](https://we45.gitbook.io/threatplaybook/)
+* [Threat Spec](https://threatspec.org/)
+* [MS Thret Modeling Tool](https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool)
 
-* Threat Playbook Framework
-* IDE (Sonar Lint, IntelliJ Idea, VS Code, Eclipse)
+## Pre Commit Hooks
+* [Git Secret](https://git-secret.io/)
+* [Truffle Hog](https://trufflesecurity.com/trufflehog)
+* [Git Hound](https://github.com/ezekg/git-hound)
+
+## Software Composition Analysis
+* [OWASP Dependency Check](https://owasp.org/www-project-dependency-check/)
+* [Requires IO](https://requires.io/)
+* [Retire.js](https://retirejs.github.io/retire.js/)
+
+## Static Analysis Security Testing (SAST)
+* [Bandit-Python](https://pypi.org/project/bandit/)
+* [Breakman-Ruby](https://brakemanscanner.org/)
+* [RIPS](https://www.ripstech.com/)
+* [Sonarqube](https://www.sonarqube.org/)
+* [PMD](https://pmd.github.io/)
+
+## IDE Plugins
+
+* Sonar Lint
+* IntelliJ Idea
+* VS Code
+    * [Microsoft DevSkim](https://marketplace.visualstudio.com/items?itemName=MS-CST-E.MicrosoftDevSkim)
+    * [Microsoft Code Analysis Tool .NET (CAT.NET)](https://www.microsoft.com/en-us/download/details.aspx?id=19968)
+
+* Eclipse
+
+## Secret Management 
+* [Hashicorp Vault](https://www.vaultproject.io/)
+* [KeyWhiz](https://square.github.io/keywhiz/)
+* [Confidant](https://lyft.github.io/confidant/)
+
+## Vulnerability Management
+
+* [Archery](https://www.archerysec.com/)
+* [Jack Hammer](https://github.com/olacabs/jackhammer)
+* [Defect Dojo](https://www.defectdojo.org/)
+
 * Git
 * JUnit
 * Pre Commit Hooks
 * Maven
 * Zap Proxy
-* Sonarqube
+*
 * Findbugs
 * PMD
 * IDE Plugins.(Sonar Lint)
@@ -53,6 +93,9 @@ Este archivo tiene los apuntes de la investigación en el area DevSecOps
 
 ## Zap Proxy
 ---
+
+
+* [Video All Day Devops Zap in ten ](https://www.alldaydevops.com/zap-in-ten)
 
 ### Análisis Zap Proxy
 
