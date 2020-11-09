@@ -147,7 +147,9 @@ Este archivo tiene los apuntes de la investigación en el area DevSecOps
 ## OWASP
 ----
 
-
+## Oracle Blog - Implement NIST Security
+----
+https://blogs.oracle.com/cloudsecurity/leveraging-the-nist-cybersecurity-framework-for-devsecops
 
 ### Threat Model Playbook
 ----
