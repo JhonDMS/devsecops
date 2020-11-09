@@ -1,7 +1,5 @@
 # Sonarqube
 
-# Sonarqube
-
 
 
 * [Docker Sonarqube](https://github.com/aprenderdevops/docker-sonarqube.git)
