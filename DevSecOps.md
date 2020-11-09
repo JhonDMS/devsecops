@@ -40,7 +40,7 @@ Este archivo tiene los apuntes de la investigación en el area DevSecOps
 
 ## IDE Plugins
 
-* Sonar Lint
+* [Sonar Lint](https://www.sonarlint.org/)
 * IntelliJ Idea
 * VS Code
     * [Microsoft DevSkim](https://marketplace.visualstudio.com/items?itemName=MS-CST-E.MicrosoftDevSkim)
