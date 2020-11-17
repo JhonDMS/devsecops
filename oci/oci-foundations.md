@@ -35,6 +35,33 @@ Entidad que puede interactuar con recursos OCI.
       2.- Grupo -> Al menos una politica de permisos que en el tenancy o el comaprtiment.
 
 
+### Instance Principals
+
+Permite hacer llamadas API entre instancias y servicios OCI sin la necesidad de almacenar credenciales para comunicar entre servicios. 
+
+## Compartment 
+
+Conjunto de recursos relacionados.permite aislar y controlar el acceso a los recursos.
+
+* Cada recurso pertenece sólo a un "Compartment"
+* Los recursos de distintos Compartments, pueden interactuar.
+* Se le puede dar acceso a los grupos a los "Compartments" partir de "Policies".
+
+## Tenancy /Root Compartments
+
+Existe un "Compartment" raiz, la buena practica indica que hay que aislar los recursos en distintos "Compartments".
+
+## Workflow de agregar usuarios
+
+Paso 1: Agregar a los usuarios a un Grupo Ejm: rvaldes al grupo "Network Admin Group".
+
+Paso 2: Escribir una "policie"
+
+## Authentication and Authorization
+
+Responde ¿Quén es esta persona?. ¿Es quién dice que és?.
+
+
 
 ## Referencias
 
