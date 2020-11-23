@@ -18,9 +18,6 @@ distribución JDK y está integrado en la JVM.
 ### Dataflow
 
 
-
-
-
 Construcción de la imágen docker de los microservicios con argumentos:
 
 Caso 1: Activar Flight Recorder (JFR) como argumento de partida de java.
@@ -44,7 +41,7 @@ El archivo de JRF debe quedar en el punto de montaje de los logs de los microser
 
 
 
-
+## Configuración de JAVA_HOME 
 
 ```
 ✘ rvaldes@MacBook-Pro-de-Rodrigo  ~/ms-demomonitor   feature/archetype-init  /usr/libexec/java_home -V

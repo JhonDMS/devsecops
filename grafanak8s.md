@@ -6,7 +6,7 @@ kubectl create ns monitoring
 
 
 
-Instalación grafana local con docker compose
+## Instalación grafana local con docker compose
 ---------------------------------------------
 
 ## Archivo original prometheus.yml
@@ -47,7 +47,7 @@ scrape_configs:
 
 
 
-Scrape Config de Bitbucket
+# Scrape Config de Bitbucket
 --------------------------
 ```
 
@@ -59,17 +59,32 @@ scrape_configs:
       - targets: ['10.252.226.123:7990']
 ```
 
+# Docker compose
+----
+
+```
+version: '3'
+services:
+  promcontainer:
+    image: "prom/prometheus"
+    volumes:
+     - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    command: "--config.file=/etc/prometheus/prometheus.yml"
+    ports:
+     - "9090:9090"
+  grafanacontainer:
+    image: "grafana/grafana"
+    ports:
+     - "3000:3000"
+```
+
+docker-compose up
 
 
 
 
+# Referencias
 
-
-
-
-
-
-
-
+* [Setup Prometheus Monitoring on Kubernetes using Helm and Prometheus Operator ](https://youtu.be/QoDqxm7ybLc)
 
 * [Monitor Your Kubernetes Cluster With Prometheus and Grafana](https://medium.com/better-programming/monitor-your-kubernetes-cluster-with-prometheus-and-grafana-1f7d0195e59)
