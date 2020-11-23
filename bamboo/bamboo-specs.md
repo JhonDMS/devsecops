@@ -1,4 +1,4 @@
-
+# Bamboo Specs
 
 
 * [Tutorial](https://confluence.atlassian.com/bamboo/tutorial-create-a-simple-plan-with-bamboo-java-specs-894743911.html)
@@ -14,3 +14,8 @@ mvn archetype:generate -B \
 
 
 https://urldefense.com/v3/__https://login.us-phoenix-1.oraclecloud.com/v1/password/reset?reset_token=e47b3d09-865d-4201-81d0-d05f00174c28&tenantId=ocid1.tenancy.oc1..aaaaaaaayjnidkaek5nrvwotuw5t43bxcjbza2fvlp3ijrzoj7a4lnt6x4qq&userId=ocid1.user.oc1..aaaaaaaa3agpho6z4cahxcj6mcp53p2l66kmo6zupxju2ntkpg6uycng57ha__;!!C3eXzRIY6Mw!bsPZ3QMUxOv6vZXSxsjZuPnZ7c7JglVR64lTAUXpBAGN-VfmwJMaix3As-T8vTMlAiCoeTzPKw$
+
+
+
+
+https://urldefense.com/v3/__https://myservices-revaldesb.console.oraclecloud.com/mycloud/cloudportal/gettingStarted__;!!C3eXzRIY6Mw!bseghExtfTwstSh4_vdOIT3AvRlH6mZCVJWv5KOZrZV0w-RynXtRm-diy6YvCvVm4ePo4RDKuA$

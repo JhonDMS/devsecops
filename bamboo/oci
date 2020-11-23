@@ -10,7 +10,7 @@ ssh -i ~/Downloads/ opc@129.146.186.12
 
 ssh-key-2020-11-15.key.pub
 
-ssh -i ~/Downloads/ssh-key-2020-11-15.key.pub opc@129.146.186.12
+ssh -i ~/Downloads/ssh-key-2020-11-15.key opc@129.146.186.12
 
 
 
