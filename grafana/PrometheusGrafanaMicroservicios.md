@@ -86,3 +86,11 @@ https://grafana.com/docs/grafana/latest/panels/panel-editor/
 
 
 * [Google SRE Book](https://sre.google/sre-book/monitoring-distributed-systems/)
+
+* [PromQL Tutorial for beginners](https://valyala.medium.com/promql-tutorial-for-beginners-9ab455142085)
+
+
+
+
+
+cpu{kubernetes_pod_name=~"$pod_name"}
