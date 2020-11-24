@@ -4,6 +4,7 @@
 
 * [Tutorial OKE](https://docs.oracle.com/en/solutions/monitor-applications-on-kubernetes/add-oracle-management-cloud-integration.html#GUID-B72CC43F-9167-4B36-8AB7-E3B7223D3B3C)
 
+* [Tutorial OKE](https://www.oracle.com/webfolder/technetwork/tutorials/obe/oci/oke-full/index.html)
 
 ```
 oci -v

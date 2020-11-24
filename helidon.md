@@ -29,7 +29,7 @@ java -jar target/helidon-quickstart-se.jar
 ```
 
 
-
+```
 /usr/libexec/java_home -V
 Matching Java Virtual Machines (4):
     14.0.1 (x86_64) "Oracle Corporation" - "OpenJDK 14.0.1" /Library/Java/JavaVirtualMachines/openjdk-14.0.1.jdk/Contents/Home
@@ -38,10 +38,6 @@ Matching Java Virtual Machines (4):
     1.8.0_251 (x86_64) "Oracle Corporation" - "Java SE 8" /Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home
 
  export JAVA_HOME=`/usr/libexec/java_home -v 11.0.7`
-
-
-
  export JAVA_HOME=`/usr/libexec/java_home -v 11.0.7`
-
-
  export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+ ```
