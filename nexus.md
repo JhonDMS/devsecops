@@ -18,7 +18,7 @@ latest: Pulling from sonatype/nexus
 ## Crear Volumen y ejecutar contenedor
 
 ````
-docker volume create â€“name nexus-data
+docker volume create âname nexus-data
 docker run -d -p 8081:8081 -p 8083:8083 -v nexus-data:/nexus-data sonatype/nexus:oss
 Unable to find image 'sonatype/nexus:oss' locally
 oss: Pulling from sonatype/nexus
